@@ -9,15 +9,19 @@ A simple command line music player for Windows, Mac and Linux.
 - And other standard features...
 
 <h3>Running</h3>
-As of now, Musik is only available as source code, and you'll need Python 3 to run it.\
+As of now, Musik is only available as source code, and you'll need Python 3 to run it.
+
 The only dependency is pygame.
-Simply download ```musik.py``` and then install the pygame library using `python3
+
+Simply download `musik.py` and then install the pygame library using `python3
 -m pip install pygame-ce` or just `pip3 install pygame-ce`
 
 Musik can then be run by Python normally.
 
 <h3>Commands</h3>
-All commands and extensive help can be viewed inside Musik by entering `h` or `help`.
+All commands and extensive help can be viewed inside Musik by entering 
+
+`h` or `help`.
 
 - `quit`, `exit`, `esc` - Quits Musik
 - `p`, `play` + name of song - Play specified song if in library or play all songs of specified artist or search albums
@@ -58,6 +62,7 @@ All commands and extensive help can be viewed inside Musik by entering `h` or `h
 
 <h3>Sample Usage</h3>
 Here is a sample of what using Musik looks like
+
 ```
 -- Musik Console Player --
 Welcome to Musik!
